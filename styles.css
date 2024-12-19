@@ -49,6 +49,14 @@ main{
     font-weight: 500;
 }
 
+.main-img-div{
+    width: 100%;
+}
+
+.main-img{
+    border-radius: 56px;
+}
+
 .main-flex{
     display: flex;
     justify-content: center;
@@ -69,12 +77,6 @@ main{
 .main-flex-img-div{
     max-width: 500px;
     padding: 48px 0 0 0;
-}
-
-.main-img{
-    border-radius: 56px;
-    padding-bottom: 50px;
-    width: 100%;
 }
 
 .flex-img{
