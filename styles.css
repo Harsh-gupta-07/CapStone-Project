@@ -17,6 +17,10 @@ a{
     text-decoration: none;
 }
 
+a, button{
+    cursor: pointer;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
