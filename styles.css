@@ -60,7 +60,7 @@ main{
     padding: 100px 150px 25px 150px;
 }
 
-.main-heading{
+.heading{
     margin: 0;
     font-size: 100px;
     font-weight: 500;
@@ -95,11 +95,17 @@ main{
 .main-flex-img-div{
     max-width: 500px;
     padding: 48px 0 0 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .flex-img{
     min-width: 250px;
     width: 100%;
+}
+
+.main-flex-img-div:hover{
+    transform: scale(1.05);
 }
 
 .main-img-des-div{
@@ -310,6 +316,7 @@ input::-webkit-inner-spin-button {
     .header{
         flex-direction: column;
         padding: 0;
+        position: relative;
     }
 
     .nav-list{
@@ -323,8 +330,8 @@ input::-webkit-inner-spin-button {
         width: calc(100vw - 30px);
     }
 
-    .main-heading{
-        font-size: 50px;
+    .heading{
+        font-size: 30px;
     }
 
     .main-img{
@@ -343,13 +350,17 @@ input::-webkit-inner-spin-button {
     }
 
     .flex-img{
-        width: calc(100vw - 24px);
+        width: calc(100vw - 64px);
+        margin: 0 24px;
+    }
+
+    .project-des, .project-name{
+        padding: 0 24px;
     }
 
     .main-flex-img-div{
         padding: 12px;
         max-width: 480px;
-        /* width: calc(100vw - 24px); */
     }
 
     .main-section{
@@ -397,7 +408,17 @@ input::-webkit-inner-spin-button {
         border: 1px solid black;
         font-size: 10px;
     }
+
+    .number-input{
+        padding: 10px 10px;
+        font-size: 18px;
+        height: 25px;
+        width: 22px;
+    }
 }
+
+
+
 
 @media (max-width: 768px){
     body{
@@ -415,6 +436,7 @@ input::-webkit-inner-spin-button {
 
     .header{
         padding: 15px 25px;
+        position: relative;
     }
 
     .main-heading-div{
@@ -422,7 +444,7 @@ input::-webkit-inner-spin-button {
         width: calc(100vw - 90px);
     }
 
-    .main-heading{
+    .heading{
         font-size: 55px;
     }
 
@@ -478,6 +500,7 @@ input::-webkit-inner-spin-button {
     .explore{
         margin-top: 10px;
     }
+
     .contact{
         padding: 15px;
         width: calc(100vw - 30px);
